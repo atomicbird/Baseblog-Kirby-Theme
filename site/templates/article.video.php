@@ -6,7 +6,7 @@
 
         <article class="post format_video">
             <header class="post-meta">
-                Posted on <time datetime="<?php echo $page->date('c') ?>"><?php echo $page->date(c::get('blog.article.dateformat')); ?></time>
+                Posted by <?php echo $site->author(); ?> on <time datetime="<?php echo $page->date('c') ?>"><?php echo $page->date(c::get('blog.article.dateformat')); ?></time>
                 <?php if ($page->categories() != ''): ?> in
                 <ul class="category">
                     <?php foreach(str::split($page->categories()) as $category): ?>
