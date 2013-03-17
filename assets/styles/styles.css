@@ -121,6 +121,26 @@ a:focus {
     background: #dd4a38;
 }
 
+.submenu {
+    background: #888;
+	margin: -55px 0 60px;
+}
+.submenu li {
+    float: left;
+    display: inline-block;
+}
+.submenu a {
+    display: block;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.submenu a:hover {
+    background: #dd4a38;
+}
 
 
 /* Search
